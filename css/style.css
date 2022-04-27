@@ -1,19 +1,25 @@
-body{
-    background-color: black;
-    color: green;
-    font-family: sans-serif;
-    text-align: center;
+#display{
+    height: 100px;
+    width: 300px;
+    border: solid black 1px;
 }
 
-button {
-    color: green;
-    border: solid 1px green;
-    background-color: black;
+#deck{
+    height: 300px;
+    width: 300px;
+    border: solid green 1px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-
-#jsDiv {
-    width: 60%;
-    margin: 20px auto;
-    padding: 20px;
-    border: solid 1px green;  
+.cards{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    color: black;
+    margin: 4px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
