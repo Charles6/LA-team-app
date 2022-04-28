@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 #display{
     height: 100px;
     width: 300px;
@@ -5,10 +9,10 @@
 }
 
 #deck{
-    height: 300px;
+    height: 60px;
     width: 300px;
     border: solid green 1px;
-    background-color: blueviolet;
+    background-color: darkgreen;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
